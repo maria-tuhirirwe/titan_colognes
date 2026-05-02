@@ -389,6 +389,7 @@ export default function App() {
         </div>
         <div className="contact-grid">
           <a
+          
             href="https://wa.me/0751682412?text=Hi%20Titan%20Colognes!%20I%20would%20love%20to%20buy%20a%20fragrance%20%F0%9F%96%A4"
             target="_blank"
             rel="noopener noreferrer"
@@ -397,7 +398,7 @@ export default function App() {
             <WhatsAppIcon />
             <div>
               <span className="contact-label">WhatsApp</span>
-              <span className="contact-val">+256 751 682412</span>
+              <span className="contact-val">0751682412</span>
             </div>
           </a>
 
