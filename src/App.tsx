@@ -397,7 +397,7 @@ export default function App() {
             <WhatsAppIcon />
             <div>
               <span className="contact-label">WhatsApp</span>
-              <span className="contact-val">0789 230 136</span>
+              <span className="contact-val">+256 751 682412</span>
             </div>
           </a>
 
