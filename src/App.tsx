@@ -185,7 +185,7 @@ function FragranceCard({ f, index }: { f: (typeof fragrances)[0]; index: number 
   const waMsg = encodeURIComponent(
     `Hi Titan Colognes! I'm interested in ${f.name} by ${f.brand}. How much is it? 🖤`
   )
-  const waUrl = `https://wa.me/0751682412?text=${waMsg}`
+  const waUrl = `https://wa.me/256751682412?text=${waMsg}`
 
   return (
     <div
@@ -390,7 +390,7 @@ export default function App() {
         <div className="contact-grid">
           <a
           
-            href="https://wa.me/0751682412?text=Hi%20Titan%20Colognes!%20I%20would%20love%20to%20buy%20a%20fragrance%20%F0%9F%96%A4"
+            href="https://wa.me/256751682412?text=Hi%20Titan%20Colognes!%20I%20would%20love%20to%20buy%20a%20fragrance%20%F0%9F%96%A4"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-card whatsapp-card"
