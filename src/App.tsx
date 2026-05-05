@@ -6,7 +6,8 @@ const fragrances = [
     id: 1,
     name: 'Blue Talisman',
     brand: 'Ex Nihilo Paris',
-    type: 'Eau de Parfum',
+    type: 'Eau de Parfum · Unisex',
+    price: 'USh 1,500,000',
     image: '/images/colognes4.jpeg',
     description:
       'Crafted for those who command attention effortlessly. Fresh citrus and aquatic notes open into aromatic lavender and spicy accords, settling into a warm, long-lasting trail of amber, musk, and woody notes.',
@@ -20,7 +21,8 @@ const fragrances = [
     id: 2,
     name: 'Love Hibiscus',
     brand: 'Amouage',
-    type: 'Eau de Parfum',
+    type: 'Eau de Parfum · For Women',
+    price: 'USh 2,300,000',
     image: '/images/colognes4 (1).jpeg',
     description:
       'The vivacious mystery of femininity. Tart hibiscus and passion fruit meet frankincense in perfect harmony, anchored by sandalwood, Indian papyrus, and vanilla for an indulgent, sensuous journey.',
@@ -35,6 +37,7 @@ const fragrances = [
     name: 'Sequence',
     brand: 'Amouage',
     type: 'Essence Parfum · 30% Concentration',
+    price: 'USh 2,300,000',
     image: '/images/colognes5.jpeg',
     description:
       'Time moves in cycles. Lush lychee and raspberry open with the sweetness of life, deepened by saffron and rose, before descending into a profound base of leather, oud, and ambery woods.',
@@ -48,7 +51,8 @@ const fragrances = [
     id: 4,
     name: 'Paradoxe Intense',
     brand: 'Prada',
-    type: 'Eau de Parfum',
+    type: 'Eau de Parfum · 90ml · For Women',
+    price: 'USh 600,000',
     image: '/images/colognes5 (1).jpeg',
     description:
       'Intense contrasts. The powerful lift of delicate jasmine meets the vibrant warmth of an amber accord, intensified by a subtle moss note — a saturation of olfactory sensation like no other.',
@@ -62,7 +66,8 @@ const fragrances = [
     id: 5,
     name: 'Paradoxe Radical Essence',
     brand: 'Prada',
-    type: 'Parfum',
+    type: 'Parfum · 90ml · For Women',
+    price: 'USh 850,000',
     image: '/images/colognes5 (2).jpeg',
     description:
       'Rethinking gourmand scents entirely. Neroli and orange flower open unexpectedly into a salted pistachio heart, grounded by sandalwood — addictive from first spray to dry down.',
@@ -76,7 +81,8 @@ const fragrances = [
     id: 6,
     name: 'Guidance 46',
     brand: 'Amouage',
-    type: 'Exceptional Extrait · 46% Concentration',
+    type: 'Exceptional Extrait · 46% · Unisex',
+    price: 'USh 2,300,000',
     image: '/images/colognes5 (3).jpeg',
     description:
       'Dosed at a staggering 46% oil concentration. A study in light and shade, fragility and strength — paradoxes brought together with an immediacy only the art of perfumery can achieve.',
@@ -90,7 +96,8 @@ const fragrances = [
     id: 7,
     name: 'Cargo de Nuit',
     brand: 'Prada Olfactories',
-    type: 'Eau de Parfum · 100ml',
+    type: 'Eau de Parfum · 100ml · Unisex',
+    price: 'USh 550,000',
     image: '/images/colognes5 (4).jpeg',
     description:
       'Inspired by the mystery of a night voyage in the ocean. Musk and aldehydes crash into woody mineral depths, leaving a smooth amber trail that haunts every room you walk into.',
@@ -104,7 +111,8 @@ const fragrances = [
     id: 8,
     name: 'Guidance',
     brand: 'Amouage',
-    type: 'Eau de Parfum',
+    type: 'Eau de Parfum · Unisex',
+    price: 'USh 1,500,000',
     image: '/images/colognes6 (1).jpeg',
     description:
       'An enthralling journey through paradoxes — fragility and strength, subtlety and boldness — brought together in a signature that commands presence without demanding it.',
@@ -118,7 +126,8 @@ const fragrances = [
     id: 9,
     name: 'Paradoxe Virtual Flower',
     brand: 'Prada',
-    type: 'Eau de Parfum',
+    type: 'Eau de Parfum · 90ml · For Women',
+    price: 'USh 650,000',
     image: '/images/colognes6 (2).jpeg',
     description:
       'A floral musky signature capturing the airy, luminous scent of jasmine. Avant-garde and fresh with a comforting second-skin sensation — light as air, impossible to ignore.',
@@ -132,7 +141,8 @@ const fragrances = [
     id: 10,
     name: 'Paradigme',
     brand: 'Prada',
-    type: 'Eau de Parfum · 100ml',
+    type: 'Eau de Parfum · 100ml · For Men',
+    price: 'USh 600,000',
     image: '/images/colognes6 (3).jpeg',
     description:
       'Sophistication and avant-garde in an unexpected masculine ambery woody scent. Oscillating between enveloping warmth and exhilarating freshness — this is a new olfactive paradigm.',
@@ -147,6 +157,7 @@ const fragrances = [
     name: 'Outlands',
     brand: 'Amouage',
     type: 'Essence Parfum · 30% Concentration',
+    price: 'USh 2,300,000',
     image: '/images/colognes6 (4).jpeg',
     description:
       'The edge of imagination. Uncharted mysteries. From bright citrus into rich patchouli terrain, to an amber accord reverberating with balsams and resins — an invitation into the beyond.',
@@ -154,6 +165,51 @@ const fragrances = [
       top: 'Cardamom · Bergamot · Lemon · Sichuan Pepper',
       heart: 'Patchouli · Rose · Saffron · Cumin',
       base: 'Benzoin · Amber · Frankincense · Oud · Musks',
+    },
+  },
+  {
+    id: 12,
+    name: 'Purpose 50',
+    brand: 'Amouage',
+    type: 'Eau de Parfum · 50% Concentration',
+    price: 'USh 2,300,000',
+    image: '/images/purpose.jpg',
+    description:
+      'A bold declaration of intent. Purpose 50 carries an extraordinary 50% fragrance concentration — a powerful, unwavering signature for those who move through the world with absolute certainty.',
+  notes: {
+      top: '',
+      heart: '',
+      base: '',
+    },
+  },
+  {
+    id: 13,
+    name: 'Balancing Air Foam Cleanser',
+    brand: 'Skincare',
+    type: 'Face Wash · Balancing Formula',
+    price: 'USh 120,000',
+    image: '/images/BalancingAirFoamCleanser.jpg',
+    description:
+      'A gentle yet effective foam cleanser that purifies and balances skin without stripping its natural moisture. Leaves skin feeling clean, fresh, and perfectly balanced.',
+   notes: {
+      top: '',
+      heart: '',
+      base: '',
+    },
+  },
+  {
+    id: 14,
+    name: 'Foaming Facial Cleanser',
+    brand: 'Skincare',
+    type: 'Face Wash · Deep Clean',
+    price: 'USh 110,000',
+    image: '/images/FoamingFacialCleanser.jpg',
+    description:
+      'A rich foaming cleanser that deeply cleanses pores and removes impurities while maintaining the skin\'s natural moisture barrier. Suitable for daily use.',
+    notes: {
+      top: '',
+      heart: '',
+      base: '',
     },
   },
 ]
