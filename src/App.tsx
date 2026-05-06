@@ -239,7 +239,7 @@ function FragranceCard({ f, index }: { f: (typeof fragrances)[0]; index: number 
   const { ref, inView } = useInView()
   const [flipped, setFlipped] = useState(false)
   const waMsg = encodeURIComponent(
-    `Hi Titan Colognes! I'm interested in ${f.name} by ${f.brand}. How much is it? 🖤`
+    `Hi Titan Colognes! I'd like to order ${f.name} by ${f.brand} (${f.price}). Is it available? 🖤`
   )
   const waUrl = `https://wa.me/256751682412?text=${waMsg}`
 
