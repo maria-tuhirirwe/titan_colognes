@@ -266,6 +266,7 @@ function FragranceCard({ f, index }: { f: (typeof fragrances)[0]; index: number 
             <span className="card-brand">{f.brand}</span>
             <h3 className="card-name">{f.name}</h3>
             <span className="card-type">{f.type}</span>
+            <span className="card-price">{f.price}</span>
             <span className="card-hint">Tap to explore ↗</span>
           </div>
         </div>
@@ -278,14 +279,17 @@ function FragranceCard({ f, index }: { f: (typeof fragrances)[0]; index: number 
               <h3 className="card-name">{f.name}</h3>
             </div>
             <p className="card-desc">{f.description}</p>
-            <div className="notes-block">
-              {(['top', 'heart', 'base'] as const).map((k) => (
-                <div key={k} className="note-row">
-                  <span className="note-label">{k}</span>
-                  <span className="note-val">{f.notes[k]}</span>
-                </div>
-              ))}
-            </div>
+            {(f.notes.top || f.notes.heart || f.notes.base) && (
+              <div className="notes-block">
+                {(['top', 'heart', 'base'] as const).filter((k) => f.notes[k]).map((k) => (
+                  <div key={k} className="note-row">
+                    <span className="note-label">{k}</span>
+                    <span className="note-val">{f.notes[k]}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="card-back-price">{f.price}</div>
             <a
               href={waUrl}
               target="_blank"
